@@ -2393,7 +2393,23 @@ footer .copy_right {
   }
   .course_details .line .left .description p {
     font-size: 13px;
+    margin-bottom: 0;
     line-height: 20px;
+  }
+  .course_details .line .left .what_you_learn {
+    padding: 15px 15px 10px;
+    margin: 15px 0;
+  }
+  .course_details .line .left .what_you_learn h4 {
+    margin-bottom: 15px;
+    font-size: 17px;
+  }
+  .course_details .line .left .what_you_learn .item i {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .course_details .line .left .what_you_learn .item span {
+    font-size: 13px;
   }
 }
 * {
