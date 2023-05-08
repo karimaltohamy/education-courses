@@ -475,7 +475,11 @@ $color-gray: #746898;
 
 @media (max-width: 768px) {
   .course_details {
+    padding-bottom: 20px;
+
     .line {
+      gap: 20px;
+
       .left {
         padding: 15px;
         border-radius: 6px;
@@ -564,6 +568,173 @@ $color-gray: #746898;
             span {
               font-size: 13px;
             }
+          }
+        }
+
+        .requirements {
+          margin-bottom: 15px;
+
+          h4 {
+            font-size: 17px;
+            margin-bottom: 8px;
+          }
+
+          .requirement {
+            margin-bottom: 6px;
+            font-size: 13px;
+
+            i {
+              font-size: 5px;
+            }
+          }
+        }
+
+        .instructors {
+          padding: 15px 15px;
+          margin-bottom: 20px;
+
+          .profile {
+            margin-bottom: 10px;
+
+            img {
+              width: 90px;
+              height: 100px;
+            }
+
+            .text {
+              h5 {
+                font-size: 14px;
+              }
+
+              > span {
+                display: block;
+                transform: translateY(-2px);
+                font-size: 12px;
+              }
+
+              .rating_profile {
+                gap: 8px;
+                margin: 5px 0;
+
+                span {
+                  font-size: 13px;
+                }
+
+                p {
+                  font-size: 12px;
+                }
+              }
+
+              .details {
+                gap: 10px;
+
+                .detail {
+                  svg {
+                    width: 15px;
+                  }
+
+                  span {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+
+          .desc {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 0px;
+          }
+        }
+
+        .reviews {
+          h4 {
+            font-size: 17px;
+            margin-bottom: 12px;
+          }
+
+          .review {
+            img {
+              width: 40px;
+              height: 40px;
+            }
+
+            .text {
+              h5 {
+                font-size: 14px;
+                margin-bottom: 1px;
+              }
+
+              .rating_review {
+                margin-bottom: 5px;
+                .stars {
+                  i {
+                    font-size: 8px;
+                  }
+                }
+
+                .time {
+                  font-size: 12px;
+                }
+              }
+
+              p {
+                font-size: 12px;
+                line-height: 20px;
+              }
+            }
+          }
+
+          .btn_write {
+            padding: 8px 15px;
+            font-size: 11px;
+          }
+        }
+      }
+
+      .right {
+        padding: 15px;
+
+        .inter_vedio {
+          img {
+            height: 175px;
+          }
+        }
+
+        .price {
+          margin-top: 10px;
+          font-size: 20px;
+        }
+
+        .course_video_body {
+          margin-top: 10px;
+
+          .item {
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+
+            .course-vide-icon {
+              font-size: 15px;
+
+              svg {
+                width: 16px;
+              }
+            }
+
+            .course-vide-info {
+              font-size: 15px;
+            }
+          }
+        }
+
+        .btn_add {
+          margin-top: 10px;
+          padding: 7px;
+          font-size: 15px;
+
+          svg {
+            width: 20px;
           }
         }
       }

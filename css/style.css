@@ -2347,6 +2347,12 @@ footer .copy_right {
   }
 }
 @media (max-width: 768px) {
+  .course_details {
+    padding-bottom: 20px;
+  }
+  .course_details .line {
+    gap: 20px;
+  }
   .course_details .line .left {
     padding: 15px;
     border-radius: 6px;
@@ -2410,6 +2416,275 @@ footer .copy_right {
   }
   .course_details .line .left .what_you_learn .item span {
     font-size: 13px;
+  }
+  .course_details .line .left .requirements {
+    margin-bottom: 15px;
+  }
+  .course_details .line .left .requirements h4 {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+  .course_details .line .left .requirements .requirement {
+    margin-bottom: 6px;
+    font-size: 13px;
+  }
+  .course_details .line .left .requirements .requirement i {
+    font-size: 5px;
+  }
+  .course_details .line .left .instructors {
+    padding: 15px 15px;
+    margin-bottom: 20px;
+  }
+  .course_details .line .left .instructors .profile {
+    margin-bottom: 10px;
+  }
+  .course_details .line .left .instructors .profile img {
+    width: 90px;
+    height: 100px;
+  }
+  .course_details .line .left .instructors .profile .text h5 {
+    font-size: 14px;
+  }
+  .course_details .line .left .instructors .profile .text > span {
+    display: block;
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+    font-size: 12px;
+  }
+  .course_details .line .left .instructors .profile .text .rating_profile {
+    gap: 8px;
+    margin: 5px 0;
+  }
+  .course_details .line .left .instructors .profile .text .rating_profile span {
+    font-size: 13px;
+  }
+  .course_details .line .left .instructors .profile .text .rating_profile p {
+    font-size: 12px;
+  }
+  .course_details .line .left .instructors .profile .text .details {
+    gap: 10px;
+  }
+  .course_details .line .left .instructors .profile .text .details .detail svg {
+    width: 15px;
+  }
+  .course_details .line .left .instructors .profile .text .details .detail span {
+    font-size: 12px;
+  }
+  .course_details .line .left .instructors .desc {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  .course_details .line .left .reviews h4 {
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .course_details .line .left .reviews .review img {
+    width: 40px;
+    height: 40px;
+  }
+  .course_details .line .left .reviews .review .text h5 {
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+  .course_details .line .left .reviews .review .text .rating_review {
+    margin-bottom: 5px;
+  }
+  .course_details .line .left .reviews .review .text .rating_review .stars i {
+    font-size: 8px;
+  }
+  .course_details .line .left .reviews .review .text .rating_review .time {
+    font-size: 12px;
+  }
+  .course_details .line .left .reviews .review .text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .course_details .line .left .reviews .btn_write {
+    padding: 8px 15px;
+    font-size: 11px;
+  }
+  .course_details .line .right {
+    padding: 15px;
+  }
+  .course_details .line .right .inter_vedio img {
+    height: 175px;
+  }
+  .course_details .line .right .price {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .course_details .line .right .course_video_body {
+    margin-top: 10px;
+  }
+  .course_details .line .right .course_video_body .item {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  .course_details .line .right .course_video_body .item .course-vide-icon {
+    font-size: 15px;
+  }
+  .course_details .line .right .course_video_body .item .course-vide-icon svg {
+    width: 16px;
+  }
+  .course_details .line .right .course_video_body .item .course-vide-info {
+    font-size: 15px;
+  }
+  .course_details .line .right .btn_add {
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 15px;
+  }
+  .course_details .line .right .btn_add svg {
+    width: 20px;
+  }
+}
+.login_form {
+  padding: 60px 0;
+}
+.login_form .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.login_form .line .left,
+.login_form .line .right {
+  width: 50%;
+}
+.login_form .line .left {
+  background: #f5f5f5;
+  padding: 45px 30px;
+  text-align: center;
+}
+.login_form .line .left h3 {
+  font-size: 35px;
+  margin-bottom: 70px;
+  color: #140342;
+}
+.login_form .line .right form .input_item input {
+  background: #f5f5f5;
+  border: 0;
+  border-radius: 4px;
+  color: #575757;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 55px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+.login_form .line .right form .btn_login {
+  background: #6440fb;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
+}
+.login_form .line .right form span {
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  margin-top: 20px;
+  position: relative;
+}
+.login_form .line .right form span::after {
+  content: "or";
+  background-color: white;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: gray;
+}
+.login_form .line .right form .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.login_form .line .right form .btns button {
+  padding: 10px 25px;
+  border: 1px solid #edeef2;
+  border-radius: 6px;
+  background-color: rgb(246, 246, 246);
+  font-weight: 500;
+  width: 100%;
+}
+.login_form .line .right form .btns button i {
+  margin-right: 5px;
+}
+.login_form .line .right form .btns button.btn_facebook i {
+  color: #4267b2;
+}
+.login_form .line .right form .btns button.btn_google i {
+  color: #db4437;
+}
+
+@media (max-width: 768px) {
+  .login_form {
+    padding: 30px 0;
+  }
+  .login_form .line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .login_form .line .left,
+.login_form .line .right {
+    width: 100%;
+  }
+  .login_form .line .left {
+    padding: 20px;
+  }
+  .login_form .line .left h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .login_form .line .left .image img {
+    width: 45%;
+  }
+  .login_form .line .right form .input_item input {
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 14px;
+    outline: none;
+    padding: 5px 13px;
+  }
+  .login_form .line .right form .btn_login {
+    font-weight: 600;
+    height: 35px;
+    line-height: 35px;
+  }
+  .login_form .line .right form .btns button {
+    padding: 7px 15px;
+    font-size: 15px;
   }
 }
 * {
