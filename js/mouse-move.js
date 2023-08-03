@@ -4,6 +4,7 @@ var mouse = { x: 0, y: 0, moved: false };
 $(".hero_section").mousemove(function (e) {
   mouse.moved = true;
   mouse.x = e.clientX - rect.left;
+
   mouse.y = e.clientY - rect.top;
 });
 
